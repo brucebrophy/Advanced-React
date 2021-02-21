@@ -8,7 +8,7 @@ export default function Product({ product }) {
   return (
     <ItemStyles>
       <img
-        src={product?.photo?.image?.publicUrlTransformed}
+        src={product?.image?.image?.publicUrlTransformed}
         alt={product.name}
       />
       <Title>
